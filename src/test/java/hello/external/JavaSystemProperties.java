@@ -7,6 +7,7 @@ import java.util.Properties;
 @Slf4j
 public class JavaSystemProperties {
 
+    //-Durl=devdb -Dusername=dev_user -Dpassword=dev_pw
     public static void main(String[] args) {
         Properties properties = System.getProperties();
         for (Object key : properties.keySet()) {
